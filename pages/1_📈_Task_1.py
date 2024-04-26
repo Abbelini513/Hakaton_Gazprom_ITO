@@ -30,11 +30,7 @@ agg_data = pd.read_csv('agg_data.csv')
 st.markdown('## Результирующая таблица')
 # Use agg_data as needed
 
-
-
-
 AgGrid(agg_data, height=400)
-
 
 
 st.markdown('## Графики распределения кластеров')
